@@ -33,6 +33,7 @@ cd shrug
 gcc shrug.c -o shrug
 chmod +x shrug
 sudo mv shrug /usr/local/bin/
+echo "Yay, ascii emoji's! `shrug`"
 ```
 
 ### MacOS
@@ -40,6 +41,7 @@ sudo mv shrug /usr/local/bin/
 clang shrug.c -o shrug
 chmod +x shrug
 sudo mv shrug /usr/local/bin/
+echo "Good job! Steve Jobs would be proud of you! `shrug`"
 ```
 
 ### Windows
