@@ -9,15 +9,20 @@
                       /____/ 
 ```
 
+The shrug command is a simple unix command that can be used for appending a shrug ascii emoji to the output of text.
+
+### Example:
+
+```
+$ echo "Sorry, can't help you! `shrug`"
+Sorry, can't help you! ¯\_(ツ)_/¯
+```
+
 # Installation Instructions
 
 ```
 git clone https://github.com/sodonnell/shrug.git
 cd shrug
-
-then...??? IDFK !!!
-
-¯\_(ツ)_/¯
 ```
 
 ## Compile Instructions
@@ -26,16 +31,17 @@ then...??? IDFK !!!
 
 ```
 gcc shrug.c -o shrug
+chmod +x shrug
 sudo mv shrug /usr/local/bin/
 ```
 
 ### MacOS
 ```
 clang shrug.c -o shrug
+chmod +x shrug
 sudo mv shrug /usr/local/bin/
 ```
 
 ### Windows
 
-Just shoot yourself, or download the .exe from the release section. `¯\_(ツ)_/¯`
-
+This is not for you... `¯\_(ツ)_/¯` 
