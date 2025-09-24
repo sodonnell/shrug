@@ -9,7 +9,7 @@
                       /____/ 
 ```
 
-The shrug command is a simple Unix command that can be used for appending a silly "shrug" (¯\\_(ツ)\_/¯) ascii-emoji to the output of your "echo" text.
+The shrug command is a simple Unix command that can be used for appending a silly "shrug" (¯\\_(ツ)\_/¯) ascii-emoji to the output of your `echo` command.
 
 ### Example:
 
@@ -17,6 +17,8 @@ The shrug command is a simple Unix command that can be used for appending a sill
 $ echo "Sorry, can't help you! `shrug`"
 Sorry, can't help you! ¯\_(ツ)_/¯
 ```
+
+### What the shrug!? ¯\\_(ツ)\_/¯
 
 - Yes, it's a simply novelty command that serves no real purpose of existence.
 - Also yes, this is basically a "Hello World!" application (exercise).
